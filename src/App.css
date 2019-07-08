@@ -65,3 +65,48 @@
   color: #fff;
   background-color: #01044b;
 }
+.speaker-box {
+  display: flex;
+  margin: 20px 0;
+}
+.detail-box {
+  width: 65%;
+  display: flex;
+  
+}
+.play-box {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.detail-inner-box {
+  margin-left: 10px;
+}
+
+
+@media (max-width: 600px) {
+  .speaker-box {
+    flex-direction: column;
+  }
+  .detail-box {
+    width: 100%;
+  }
+  .play-box {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .tab-box > div {
+    font-size: 12px;
+  }
+  .line {
+    display: none;
+  }
+  .heading-box {
+    font-size: 20px;
+    padding: 10px 0;
+  }
+  .detail-inner-box {
+    width: 80%;
+  }
+}
